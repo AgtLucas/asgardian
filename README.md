@@ -3,7 +3,7 @@
 ---
 
 #### docs
-- Materiais e documentação
+-- Materiais e documentação
 
 #### site
-- O site em si
+-- O site em si
