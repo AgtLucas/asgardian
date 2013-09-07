@@ -152,6 +152,7 @@ module.exports = function (grunt) {
         },
         compass: {
             options: {
+                config: '.config.rb',
                 sassDir: '<%= yeoman.app %>/styles',
                 cssDir: '.tmp/styles',
                 generatedImagesDir: '.tmp/images/generated',
@@ -166,8 +167,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 options: {
-                    generatedImagesDir: '<%= yeoman.dist %>/images/generated',
-                    config: '.config.rb'
+                    generatedImagesDir: '<%= yeoman.dist %>/images/generated'
                 }
             },
             server: {
