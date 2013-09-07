@@ -1,0 +1,2 @@
+# Require Susy
+require "susy"
