@@ -182,11 +182,11 @@ module.exports = function (grunt) {
         // },
         sass: {
             dist: {
-                options: {
-                    style: 'compressed'
-                },
                 files: {
                     '<%= yeoman.app %>/styles/style.css' : '<%= yeoman.app %>/styles/style.scss'
+                },
+                options: {
+                    style: 'compressed'
                 }
             }
         },
