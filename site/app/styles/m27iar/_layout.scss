@@ -2,7 +2,6 @@
   @include outer-container;
 }
 
-.main {
-  @include outer-container;
-  padding: 20px;
+.main-menu {
+  @include span-columns(5);
 }
