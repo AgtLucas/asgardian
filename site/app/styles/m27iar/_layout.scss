@@ -1,0 +1,8 @@
+.main-header {
+  @include outer-container;
+}
+
+.main {
+  @include outer-container;
+  padding: 20px;
+}

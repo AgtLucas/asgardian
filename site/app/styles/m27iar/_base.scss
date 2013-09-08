@@ -1,17 +1,9 @@
+// Import Bourbon and Neat
 @import '../bourbon/bourbon';
 @import '../neat/neat';
 
-* {
+body {
+  position: relative;
   margin: 0;
   padding: 0;
-}
-
-.container {
-  background: tomato;
-  @include outer-container;
-  padding: 20px;
-}
-
-.hero-unit {
-  @include span-columns(6);
 }
