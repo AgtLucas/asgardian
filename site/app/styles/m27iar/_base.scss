@@ -2,9 +2,22 @@
 @import '../bourbon/bourbon';
 @import '../neat/neat';
 
+// Colors - Option 1
+$caris: #6C7479;
+$lesi: #B2C0CD;
+$imdur: #F9F9F9;
+$nuetral: #D7D4C7;
+
+// Colors - Option 2
+$dasu: #585858;
+$blanc: #FCFCF5;
+$chesire: #D3D8C4;
+$nenk: #BBC0A9;
+$crunch: #383A37;
+
 body {
   position: relative;
   margin: 0;
   padding: 0;
-  background: #09c;
+  background: $nuetral;
 }

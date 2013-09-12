@@ -1,6 +1,12 @@
 .main-header {
+}
+
+.main-header-content {
   @include outer-container;
-  background: tomato;
+  a {
+    text-decoration: none;
+    color: $caris;
+  }
 }
 
 .main-menu {
