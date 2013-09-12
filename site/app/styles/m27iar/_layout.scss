@@ -9,6 +9,15 @@
   }
 }
 
+.logo {
+  text-align: center;
+}
+
 .main-menu {
-  @include span-columns(5);
+  @include span-columns(12);
+  text-align: center;
+  li {
+    list-style: none;
+    display: inline;
+  }
 }
