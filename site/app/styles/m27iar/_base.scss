@@ -27,6 +27,7 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  background: $nuetral;
+  background: $nuetral url(../images/pcb.jpg) repeat-y;
+  background-size: cover;
   border-top: 2px solid $c;
 }
