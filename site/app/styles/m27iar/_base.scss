@@ -19,15 +19,15 @@ $crunch: #383A37;
 $c: #71130F;
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  background: $nuetral url(../images/pcb.jpg) repeat-y;
-  background-size: cover;
-  border-top: 2px solid $c;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: $nuetral;
+	background-size: cover;
+	border-top: 2px solid $c;
 }
