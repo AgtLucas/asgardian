@@ -25,11 +25,24 @@
 .main-content {
   background: $crunch;
   height: 500px;
-  margin: 50px 0;
+  margin: 50px 0 0 0;
 }
 
 .home-slide {
   @include outer-container;
   background: $dasu;
   height: 100%;
+}
+
+.posts {
+  position: relative;
+  top: 40px;
+  @include outer-container;
+}
+
+.post {
+  @include span-columns(4);
+  @include media(min-width 320px max-width 800px) {
+    @include span-columns(12);
+  }
 }
