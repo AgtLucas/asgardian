@@ -49,6 +49,11 @@
 }
 
 .home-slide {
+  background: $crunch;
+  padding: 20px 0;
+}
+
+.home-slide-content {
   @include outer-container;
   background: $dasu;
   height: 450px;
