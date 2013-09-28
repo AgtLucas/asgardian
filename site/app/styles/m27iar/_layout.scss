@@ -69,7 +69,7 @@
   color: $blanc;
   padding: 20px;
   @include span-columns(4);
-  @include media(min-width 320px max-width 800px) {
+  @include media(min-width em(320) max-width em(800)) {
     @include span-columns(12);
   }
 }
@@ -81,7 +81,7 @@
 
 .infos {
   @include span-columns(3);
-  @include media(min-width 320px max-width 800px) {
+  @include media(min-width em(320) max-width em(800)) {
     @include span-columns(12);
   }
 }
