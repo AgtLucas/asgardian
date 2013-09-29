@@ -40,6 +40,7 @@
   li {
     list-style: none;
     display: inline;
+    margin: 0 40px;
   }
 }
 
@@ -65,8 +66,8 @@
 }
 
 .post {
-  background: $crunch;
-  color: $blanc;
+  background: $nuetral;
+  color: $crunch;
   padding: 20px;
   @include span-columns(4);
   @include media(min-width em(320) max-width em(800)) {
@@ -74,8 +75,17 @@
   }
 }
 
+.post-title {
+  margin-bottom: 15px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+
 .info-container {
+  background: $crunch;
+  color: $blanc;
   margin-top: 100px;
+  padding: 20px;
   @include outer-container;
 }
 
