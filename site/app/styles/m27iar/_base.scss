@@ -27,6 +27,15 @@ $crunch: #383A37;
 $c: #71130F;
 
 /*------------------------------------*\
+    $Colors - Option 4
+\*------------------------------------*/
+$eggsu: #3e4651;
+$owlles: #f1654c;
+$shore: #00b5b5;
+$ff: #ffffff;
+$ellie: #d4d4d4;
+
+/*------------------------------------*\
     $Basic styles
 \*------------------------------------*/
 * {
@@ -44,6 +53,9 @@ body {
 	margin: 0;
 	padding: 0;
 	background: $blanc;
-	background-size: cover;
 	border-top: 2px solid $c;
+}
+
+a {
+  color: $shore;
 }

@@ -1,3 +1,7 @@
+/*------------------------------------*\
+    $Main
+\*------------------------------------*/
+
 .main {
   min-height: 100%;
   margin-bottom: -400px;
@@ -12,7 +16,7 @@
 }
 
 .main-footer {
-  background: $dasu;
+  background: $eggsu;
   margin-top: 50px;
 }
 .wrap {
@@ -20,6 +24,7 @@
 }
 
 .main-header {
+  height: 170px;
 }
 
 .main-header-content {
@@ -41,12 +46,22 @@
     list-style: none;
     display: inline;
     margin: 0 40px;
+    text-transform: uppercase;
+    a {
+      &:hover {
+        color: $shore;
+        -webkit-transition: color .3s ease;
+        -moz-transition: color .3s ease;
+        -ms-transition: color .3s ease;
+        -o-transition: color .3s ease;
+        transition: color .3s ease;
+      }
+    }
   }
 }
 
 .main-content {
   min-height: 100%;
-  margin: 50px 0 0 0;
 }
 
 .home-slide {
@@ -72,6 +87,7 @@
   @include span-columns(4);
   @include media(min-width em(320) max-width em(800)) {
     @include span-columns(12);
+    margin: 20px 0;
   }
 }
 
