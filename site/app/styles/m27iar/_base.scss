@@ -5,37 +5,6 @@
 @import '../neat/neat';
 
 /*------------------------------------*\
-    $Colors - Option 1
-\*------------------------------------*/
-$caris: #6C7479;
-$lesi: #B2C0CD;
-$imdur: #F9F9F9;
-$nuetral: #D7D4C7;
-
-/*------------------------------------*\
-    $Colors - Option 2
-\*------------------------------------*/
-$dasu: #585858;
-$blanc: #FCFCF5;
-$chesire: #D3D8C4;
-$nenk: #BBC0A9;
-$crunch: #383A37;
-
-/*------------------------------------*\
-    $Colors - Option 3
-\*------------------------------------*/
-$c: #71130F;
-
-/*------------------------------------*\
-    $Colors - Option 4
-\*------------------------------------*/
-$eggsu: #3e4651;
-$owlles: #f1654c;
-$shore: #00b5b5;
-$ff: #ffffff;
-$ellie: #d4d4d4;
-
-/*------------------------------------*\
     $Basic styles
 \*------------------------------------*/
 * {
@@ -52,7 +21,7 @@ body {
 	position: relative;
 	margin: 0;
 	padding: 0;
-	background: $blanc;
+	background: $midnightblue;
 	border-top: 2px solid $c;
 }
 
