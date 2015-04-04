@@ -1,2 +1,0 @@
-# Require Susy
-require "susy"
